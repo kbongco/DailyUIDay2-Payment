@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import CardContainer from './CardContainer'
+import Footer from './Footer'
 import Form from './Form'
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
       <div className='forms'>
         <Form/>
       </div>
+      <Footer/>
     </div>
   );
 }

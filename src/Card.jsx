@@ -19,7 +19,7 @@ export default function Card() {
   `
   return (
     <>
-      <div>
+      <div style={{display:'flex', justifyContent:'center',}}>
       <CardContainer>
           <BankName>Bank of something </BankName>
           <div>
