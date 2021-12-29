@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Card from './Card'
 const CardContainerDiv = styled.div`
 height:270px;
 width:100%;
@@ -16,7 +17,8 @@ export default function CardContainer() {
   return (
     <CardContainerDiv>
       <div className='choosepayment'>
-      <Payment>Choose your payment method</Payment>
+        <Payment>Choose your payment method</Payment>
+        <Card/>
       </div>
     </CardContainerDiv>
   )
